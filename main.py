@@ -1,14 +1,5 @@
-import json
-import random
-import discord
-import re
-import unicodedata
-import os
-import time
-import datetime
+import json,random,discord,re,unicodedata,os,time,datetime,pymongo
 from discord.ext import tasks, commands
-import pymongo
-from webserver import keep_alive
 
 TOKEN = os.environ['DISCORD_BOT_SECRET']
 mongoDB = os.environ['mongoDB']
